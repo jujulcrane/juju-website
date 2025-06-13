@@ -1,9 +1,8 @@
 <script lang="ts">
-	import Meta from "$lib/components/Meta.svelte";
-
+	import Meta from '$lib/components/Meta.svelte';
 </script>
 
-<Meta 
+<Meta
 	title="Music"
 	description="Learn about Juju's musical backround on the French Horn and Cello."
 	keywords="music portfolio, french horn, Symphony Orchestra, Cornell Univeristy"

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Meta from "$lib/components/Meta.svelte";
+	import Meta from '$lib/components/Meta.svelte';
 </script>
 
-<Meta 
+<Meta
 	title="Art Portfolio"
 	description="Discover Juju's art collection featuring creative visual works, paintings, and artistic experiments through technology, acrylic paint, oil paint, watercolor, and more."
 	keywords="digital art, painting, acrylic, watercolor, oil painting, creative portfolio, visual art, illustrations, artistic works"

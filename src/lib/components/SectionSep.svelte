@@ -1,7 +1,5 @@
 <script lang="ts">
-  export let className: string = '';
+	export let className: string = '';
 </script>
 
-<div class="w-full h-16 md:h-32 sectionSep {className}">
-
-</div>
+<div class="sectionSep h-16 w-full md:h-32 {className}"></div>
