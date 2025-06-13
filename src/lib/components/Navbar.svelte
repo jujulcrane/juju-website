@@ -17,9 +17,8 @@
 
 <nav class="text-black p-4">
 	<div class="container mx-auto flex justify-between items-center">
-		<a href="/" class="text-xl font-bold">Juju's Website</a>
+		<a href="/" class="hover:text-gray-300"><HomeIcon size={30}/></a>
 		<ul class="flex space-x-6">
-			<li><a href="/" class="hover:text-gray-300"><HomeIcon size={30}/></a></li>
 			<li><a href="/about" class="hover:text-gray-300">About</a></li>
 			<li><a href="/projects" class="hover:text-gray-300">Projects</a></li>
 			<li><a href="/art" class="hover:text-gray-300">Art</a></li>

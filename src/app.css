@@ -1,2 +1,17 @@
 @import "tailwindcss";
 
+html {
+  font-family: "Hiragino Sans BG", "Hiragino Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: 600;
+  }
+}
