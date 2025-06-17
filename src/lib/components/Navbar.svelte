@@ -113,18 +113,6 @@
 						Contact
 					</a>
 				</li>
-				<li class="pt-4">
-					<div on:click={closeMenu}>
-						<DownloadButton
-							href="/resume.pdf"
-							filename="Juliet_Crane_Resume.pdf"
-							ariaLabel="Download Juliet Crane's Resume"
-							size={24}
-							tooltipText="Download my resume"
-							tooltipDirection="bottom"
-						/>
-					</div>
-				</li>
 			</ul>
 		</div>
 	 {/if}
