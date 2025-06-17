@@ -8,8 +8,8 @@
 
 <footer class="mt-auto text-black">
 	<div class="container mx-auto p-6">
-		<div class="flex items-center justify-between">
-			<div>
+		<div class="flex flex-col-reverse sm:flex-row items-center justify-between gap-y-2">
+			<div class="text-center">
 				<p>Copyright©Juliet Crane，2025</p>
 			</div>
 			<div class="flex items-center space-x-4">
