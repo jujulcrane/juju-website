@@ -20,10 +20,40 @@
 					size={24}
 					tooltipText="Download my resume"
 				/>
-				<GitHubIcon size={24} />
-				<InstagramIcon size={24} />
-				<LinkedIn size={24} />
-				<ContactIcon size={24} />
+				<a 
+          href="https://github.com/jujulcrane" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Juliet's GitHub profile"
+          class="hover:opacity-70 transition-opacity"
+        >
+          <GitHubIcon size={24} />
+        </a>
+        <a 
+          href="https://www.instagram.com/jujulcrane" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Juliet's Instagram profile"
+          class="hover:opacity-70 transition-opacity"
+        >
+          <InstagramIcon size={24} />
+        </a>
+				<a 
+          href="https://www.linkedin.com/in/juliet-crane/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Juliet's LinkedIn profile"
+          class="hover:opacity-70 transition-opacity"
+        >
+          <LinkedIn size={24} />
+        </a>
+        <a 
+          href="#contact"
+          aria-label="Go to contact section"
+          class="hover:opacity-70 transition-opacity"
+        >
+          <ContactIcon size={24} />
+        </a>
 			</div>
 		</div>
 	</div>
