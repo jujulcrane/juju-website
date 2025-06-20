@@ -14,22 +14,22 @@
 </script>
 
 <section id="contact">
-  <div class="max-w-6xl mx-auto bg-white">
-    <div class="flex flex-row justify-between">
-      <div class="flex flex-col gap-y-4 p-8">
+  <div class="mx-auto bg-white">
+    <div class="flex flex-row gap-x-8 min-h-48">
+      <div class="flex flex-col gap-y-4 p-8 flex-1">
         <h2 class="h2 font-bold text-black">Contact</h2>
 				<img 
 					src="/ContactHeadshot.png" 
 					alt="Juliet Crane headshot"
-					class=""
+					class="flex-1 object-cover"
 				/>
 			</div>
 		
-		<div class="p-8 grid grid-cols-1 lg:grid-cols-2 gap-16">
-			<div>
+		<div class="p-8 flex-1 flex flex-col justify-center gap-16 min-h-48">
+			<div class="">
 				<h3 class="text-2xl font-semibold text-black">Send me a message</h3>
 				
-				<form on:submit={handleSubmit} class="space-y-6">
+				<form on:submit={handleSubmit} class="space-y-6 flex-1 flex flex-col justify-center">
 					<p class="text-sm text-black mb-6">*Denotes Mandatory Fields</p>
 					
 					<div>
