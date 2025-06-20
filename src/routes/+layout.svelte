@@ -2,6 +2,8 @@
 	import '../app.css';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import SectionSep from '$lib/components/SectionSep.svelte';
+	import ContactSection from '$lib/components/ContactSection.svelte';
 
 	let { children } = $props();
 </script>
@@ -27,12 +29,13 @@
 	<meta property="og:locale" content="en_US" />
 </svelte:head>
 
-<div class="flex min-h-screen flex-col">
+<div class="flex min-h-screen flex-col bg-[#E5E5E5]">
 	<Navbar />
 
 	<main class="container mx-auto flex-grow p-4">
 		{@render children()}
 	</main>
-
+	<SectionSep/>
+	<ContactSection/>
 	<Footer />
 </div>
