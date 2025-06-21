@@ -39,7 +39,7 @@
 				message: message.trim()
 			});
 
-			submitMessage = 'Message send successfully! I will get back to you ASAP.';
+			submitMessage = 'Message sent successfully! I will get back to you ASAP.';
 			name = '';
 			email = '';
 			message = '';
@@ -101,6 +101,16 @@
 								class="min-h-32 w-full resize-none border-2 border-gray-300 bg-transparent p-3 transition-colors focus:border-gray-600 focus:outline-none lg:h-60"
 							></textarea>
 						</div>
+
+						{#if submitMessage}
+							<div
+								class="mt-4 rounded p-3 {submitMessage.includes('success')
+									? 'bg-green-100 text-green-700'
+									: 'bg-red-100 text-red-700'}"
+							>
+								{submitMessage}
+							</div>
+						{/if}
 
 						<Button type="submit" ariaLabel="Submit message" {disabled} onclick={() => {}}>
 							{#if isSubmitting}
