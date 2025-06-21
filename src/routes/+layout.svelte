@@ -34,8 +34,8 @@
 
 	<main class="container mx-auto flex-grow p-4">
 		{@render children()}
-		<SectionSep/>
-	<ContactSection/>
+		<SectionSep />
+		<ContactSection />
 	</main>
 	<Footer />
 </div>

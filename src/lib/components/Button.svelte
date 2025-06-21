@@ -8,22 +8,22 @@
 		children: any;
 	}
 
-	let { 
-		type = 'button', 
-		disabled = false, 
-		onclick, 
-		class: className = '', 
+	let {
+		type = 'button',
+		disabled = false,
+		onclick,
+		class: className = '',
 		ariaLabel,
-		children 
+		children
 	}: Props = $props();
 </script>
 
 <button
 	{type}
 	{disabled}
-	onclick={onclick}
+	{onclick}
 	aria-label={ariaLabel}
-	class="bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 cursor-pointer {className}"
+	class="cursor-pointer rounded-md bg-black px-6 py-3 font-medium text-white transition-colors duration-200 hover:bg-gray-800 disabled:cursor-not-allowed disabled:opacity-50 {className}"
 >
 	{@render children()}
 </button>

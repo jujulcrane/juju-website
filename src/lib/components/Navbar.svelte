@@ -9,17 +9,17 @@
 		isMenuOpen = !isMenuOpen;
 	}
 
-	function closeMenu(){
+	function closeMenu() {
 		isMenuOpen = false;
 	}
 </script>
 
-<nav class="p-4 text-black relative">
+<nav class="relative p-4 text-black">
 	<div class="container mx-auto flex items-center justify-between">
 		<a href="/" class="hover:text-gray-300"><HomeIcon size={30} /></a>
 
 		<!-- Desktop Navigation -->
-		<ul class="hidden md:flex space-x-6">
+		<ul class="hidden space-x-6 md:flex">
 			<li><a href="/about" class="hover:text-gray-300">About</a></li>
 			<li><a href="/projects" class="hover:text-gray-300">Projects</a></li>
 			<li><a href="/art" class="hover:text-gray-300">Art</a></li>
@@ -39,81 +39,58 @@
 		</ul>
 
 		<!-- Mobile Hamburger Button -->
-		 <button
-		 	class="md:hidden z-50 relative p-2 hover:text-gray-300 transition-colors cursor-pointer"
+		<button
+			class="relative z-50 cursor-pointer p-2 transition-colors hover:text-gray-300 md:hidden"
 			on:click={toggleMenu}
-			aria-label="Toggle navigation menu">
+			aria-label="Toggle navigation menu"
+		>
 			{#if isMenuOpen}
 				<X size={24} />
-				{:else}
+			{:else}
 				<Menu size={24} />
-				{/if}
-		 </button>
+			{/if}
+		</button>
 	</div>
 
 	<!-- Mobile Menu Overlay -->
-	 {#if isMenuOpen}
-	 <div 
-			class="fixed inset-0 bg-white z-40 md:hidden flex flex-col items-center justify-center"
+	{#if isMenuOpen}
+		<div
+			class="fixed inset-0 z-40 flex flex-col items-center justify-center bg-white md:hidden"
 			role="dialog"
 			aria-modal="true"
 		>
 			<ul class="flex flex-col space-y-8 text-center text-2xl">
 				<li>
-					<a 
-						href="/about" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="/about" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						About
 					</a>
 				</li>
 				<li>
-					<a 
-						href="/projects" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="/projects" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Projects
 					</a>
 				</li>
 				<li>
-					<a 
-						href="/art" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="/art" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Art
 					</a>
 				</li>
 				<li>
-					<a 
-						href="/music" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="/music" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Music
 					</a>
 				</li>
 				<li>
-					<a 
-						href="/coming-soon" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="/coming-soon" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Coming Soon
 					</a>
 				</li>
 				<li>
-					<a 
-						href="#Contact" 
-						class="hover:text-gray-300 transition-colors"
-						on:click={closeMenu}
-					>
+					<a href="#Contact" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Contact
 					</a>
 				</li>
 			</ul>
 		</div>
-	 {/if}
+	{/if}
 </nav>
