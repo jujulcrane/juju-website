@@ -1,5 +1,9 @@
 <script lang="ts">
+	import FrenchHornIcon from '$lib/assets/icons/FrenchHornIcon.svelte';
+	import PaintingIcon from '$lib/assets/icons/PaintingIcon.svelte';
+	import ReactIcon from '$lib/assets/icons/ReactIcon.svelte';
 	import Meta from '$lib/components/Meta.svelte';
+	import SectionSep from '$lib/components/SectionSep.svelte';
 </script>
 
 <Meta
@@ -9,5 +13,18 @@
 	url="https://url.com"
 />
 
-<h1>Welcome to Juju's Website</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<div class="flex items-center justify-between w-full">
+<h1>Juju <br>Juliet Crane <br>ジュジュ・クレーン</h1>
+<div class="m-4 grid grid-cols-2 gap-4 items-center">
+<ReactIcon size={120}/>
+<PaintingIcon size={120}/>
+<FrenchHornIcon size={160}/>
+</div>
+</div>
+<SectionSep/>
+<h2 class="w-full pb-4 font-light text-lg sm:text-2xl md:text-4xl lg:text-5xl">Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。</h2>
+<img
+					src="/JujuPresenting.png"
+					alt="Juju presenting code to peers"
+					class="w-full rounded-sm object-cover"
+/>
