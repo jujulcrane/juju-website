@@ -14,17 +14,16 @@
 	url="https://url.com"
 />
 
-<div class="mt-4 flex items-center justify-between w-full">
-<h1>Juju <br>Juliet Crane <br>ジュジュ・クレーン</h1>
-<div class="m-4 grid grid-cols-2 gap-4 items-center">
-<ReactIcon size={120}/>
-<PaintingIcon size={120}/>
-<FrenchHornIcon size={160}/>
+<div class="mt-4 flex w-full items-center justify-between">
+	<h1>Juju <br />Juliet Crane <br />ジュジュ・クレーン</h1>
+	<div class="m-4 grid grid-cols-2 items-center gap-4">
+		<ReactIcon size={120} />
+		<PaintingIcon size={120} />
+		<FrenchHornIcon size={160} />
+	</div>
 </div>
-</div>
-<SectionSep/>
-<h2 class="w-full pb-4 font-light text-lg sm:text-2xl md:text-4xl lg:text-5xl">Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。</h2>
-<FullImage
-  src="/JujuPresenting.png"
-  alt="Juju presenting code to peers"
-/>
+<SectionSep />
+<h2 class="w-full pb-4 text-lg font-light sm:text-2xl md:text-4xl lg:text-5xl">
+	Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。
+</h2>
+<FullImage src="/JujuPresenting.png" alt="Juju presenting code to peers" />
