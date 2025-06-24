@@ -1,9 +1,6 @@
 <script lang="ts">
-	import Button from '$lib/components/Button.svelte';
-	import FullImage from '$lib/components/FullImage.svelte';
 	import LinkButton from '$lib/components/LinkButton.svelte';
 	import Meta from '$lib/components/Meta.svelte';
-	import SectionSep from '$lib/components/SectionSep.svelte';
 </script>
 
 <Meta

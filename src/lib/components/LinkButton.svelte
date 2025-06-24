@@ -7,6 +7,7 @@
 		class?: string;
 		ariaLabel?: string;
 		children: any;
+		variant?: 'default' | 'outline';
 	}
 
 	let {
@@ -16,14 +17,26 @@
 		noLink = false,
 		class: className = '',
 		ariaLabel,
-		children
+		children,
+		variant = 'default'
 	}: Props = $props();
+
+	const getVariantClasses = (variant: string) => {
+		switch (variant) {
+			case 'outline':
+				return 'border border-white bg-transparent text-gray-500 hover:bg-white';
+			default:
+				return 'bg-black text-white hover:bg-gray-800';
+		}
+	};
 </script>
 
 {#if noLink}
 	<span
 		aria-label={ariaLabel}
-		class="inline-block rounded-md bg-black px-6 py-3 font-medium text-white {className}"
+		class="inline-block rounded-md px-6 py-3 font-medium transition-colors duration-200 {getVariantClasses(
+			variant
+		)} {className}"
 	>
 		{@render children()}
 	</span>
@@ -32,7 +45,9 @@
 		{href}
 		{target}
 		aria-label={ariaLabel}
-		class="inline-block cursor-pointer rounded-md bg-black px-6 py-3 font-medium text-white transition-colors duration-200 hover:bg-gray-800 disabled:cursor-not-allowed disabled:opacity-50 {disabled
+		class="inline-block cursor-pointer rounded-md px-6 py-3 font-medium transition-colors duration-200 {getVariantClasses(
+			variant
+		)} disabled:cursor-not-allowed disabled:opacity-50 {disabled
 			? 'pointer-events-none opacity-50'
 			: ''} {className}"
 		class:disabled
