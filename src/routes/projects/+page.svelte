@@ -15,10 +15,9 @@
 				'Tailwind CSS',
 				'OpenAI API',
 				'Vercel',
-				'Japanese Language Processing',
 				'Firebase'
 			],
-			imageUrl: '/ikanji.jpg',
+			imageUrl: '/ikanji.png',
 			githubUrl: 'https://github.com/jujulcrane/ikanji',
 			liveUrl: 'https://ikanji.vercel.app/',
 			startDate: '2024-10-01'
