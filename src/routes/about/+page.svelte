@@ -9,7 +9,7 @@
 	keywords="Juju, developer, artist, creative, react, music, web development, Cornell Univeristy"
 	url="https://url/about"
 />
-
+<div class="flex flex-col md:gap-y-4 min-h-screen">
 <h1 class="h2-style">About Me</h1>
 <div class="flex flex-col gap-4 sm:flex-row">
 	<LinkButton href="https://as.cornell.edu/" target="_blank">CAS '28</LinkButton>
@@ -35,4 +35,5 @@
 		tea at UTea, attending orchestra rehearsal, taking slap shots at hockey practice, painting
 		family portraits, or writing extensive google reviews!
 	</p>
+</div>
 </div>
