@@ -4,7 +4,8 @@ export interface ArtPiece {
   description: string;
   imageUrl: string;
   year: number;
-  medium?: string;
+  medium: string;
+  size: string;
 }
 
 export interface ArtCategory {
