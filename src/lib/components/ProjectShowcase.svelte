@@ -70,16 +70,14 @@
 						<img
 							src={project.imageUrl}
 							alt={project.title}
-							class="md:h-60 lg:h-96 w-full rounded-sm object-cover"
+							class="w-full rounded-sm object-cover md:h-60 lg:h-96"
 							loading="lazy"
 						/>
 					</div>
 
 					<div class="order-1 lg:order-{index % 2 === 0 ? '2' : '1'}">
 						<div class="mb-3">
-							<span
-								class="rounded-sm bg-gray-100 px-4 py-2 text-sm font-medium text-gray-600 }"
-							>
+							<span class="} rounded-sm bg-gray-100 px-4 py-2 text-sm font-medium text-gray-600">
 								{formatProjectDuration(project)}
 							</span>
 						</div>

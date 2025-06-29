@@ -1,234 +1,234 @@
 {
-  "categories": [
-    {
-      "name": "Paintings",
-      "slug": "paintings",
-      "pieces": [
-        {
-          "id": "paint-1",
-          "title": "Evanesce",
-          "description": "A monochrome watercolor portrait in memory of my Great Uncle",
-          "imageUrl": "/images/art/paintings/6JulietCraneEvanesce7in6inWatercolorOnWatercolorPaper.jpg",
-          "year": 2022,
-          "medium": "Watercolor on Watercolor Paper",
-          "size": "7in x 6in"
-        },
-        {
-          "id": "paint-2",
-          "title": "Brian",
-          "description": "A watercolor portrait of my Dad",
-          "imageUrl": "/images/art/paintings/7JulietCraneBrian10in6.5inWatercolorOnMixedMediaPaper.JPG",
-          "year": 2023,
-          "medium": "Watercolor on Mixed Media Paper",
-          "size": "10in x 6.5in"
-        },
-        {
-          "id": "paint-3",
-          "title": "Ski Girl",
-          "description": "A watercolor portrait of my Mom on the ski slopes as a young girl",
-          "imageUrl": "/images/art/paintings/8JulietCraneSkiGirl9.5in6.5inWatercolorOnMixedMediaPaper.JPG",
-          "year": 2023,
-          "medium": "Watercolor on Mixed Media Paper",
-          "size": "9.5in x 6.5in"
-        },
-        {
-          "id": "paint-4",
-          "title": "Royal Alicia",
-          "description": "A watercolor portrait of my elegant and dear friend Alicia",
-          "imageUrl": "/images/art/paintings/9JulietCraneRoyalAlicia9.5in6.5inWatercolorOnMixedMediaPaper.JPG",
-          "year": 2024,
-          "medium": "Watercolor on Mixed Media Paper",
-          "size": "9.5in x 6.5in"
-        },
-        {
-          "id": "paint-5",
-          "title": "Night Time Lake Vibes",
-          "description": "An atmospheric landscape outside of a jazz venue combining watercolor and colored pencil",
-          "imageUrl": "/images/art/paintings/13JulietCraneNightTimeLakeVibes12in9.5inWatercolorAndColoredPencilOnMixedMediaPaper.jpg",
-          "year": 2024,
-          "medium": "Watercolor and Colored Pencil on Mixed Media Paper",
-          "size": "12in x 9.5in"
-        },
-        {
-          "id": "paint-6",
-          "title": "Tomatos and Cup Still Life",
-          "description": "Classical still life study in oil paint",
-          "imageUrl": "/images/art/paintings/18JulietCraneTomatosAndCupStillLife11inx11inOilpaintOnWoodCanvas.jpg",
-          "year": 2024,
-          "medium": "Oil Paint on Wood Canvas",
-          "size": "11in x 11in"
-        },
-        {
-          "id": "paint-7",
-          "title": "Apple and Lemon Still Life",
-          "description": "Oil painting still life composition",
-          "imageUrl": "/images/art/paintings/19JulietCraneAppleAndLemonStillLife9.5in12inOilPaintOnCanvasPaper.jpg",
-          "year": 2024,
-          "medium": "Oil Paint on Canvas Paper",
-          "size": "9.5in x 12in"
-        },
-        {
-          "id": "paint-8",
-          "title": "Cello Concentration",
-          "description": "A watercolor portrait of my sister in deep concentration while practicing the cello",
-          "imageUrl": "/images/art/paintings/14CelloConcentration.jpg",
-          "year": 2024,
-          "medium": "N/A",
-          "size": "N/A"
-        },
-        {
-          "id": "paint-9",
-          "title": "Firefighter",
-          "description": "Acrylic portrait of a my firefighting sister",
-          "imageUrl": "/images/art/paintings/16Firefighter18inx12inAcrylic.JPG",
-          "year": 2024,
-          "medium": "Acrylic",
-          "size": "18in x 12in"
-        },
-        {
-          "id": "paint-10",
-          "title": "Alison and Diana",
-          "description": "A portrait of my grandmother and aunt in acrylic",
-          "imageUrl": "/images/art/paintings/AlisonAndDianaAcrylicOnCanvas16x20.jpg",
-          "year": 2024,
-          "medium": "Acrylic on Canvas",
-          "size": "16in x 20in"
-        },
-        {
-          "id": "paint-11",
-          "title": "Black Dog",
-          "description": "An abstract portrait of my mother and her dog - awarded Scholastic Gold Key",
-          "imageUrl": "/images/art/paintings/BlackDog21inx18in.jpg",
-          "year": 2024,
-          "medium": "N/A",
-          "size": "21in x 18in"
-        },
-        {
-          "id": "paint-12",
-          "title": "Ella",
-          "description": "Portrait of my dear friend Ella in acrylic",
-          "imageUrl": "/images/art/paintings/Ella9.5inx7.25inArylic.JPG",
-          "year": 2024,
-          "medium": "Acrylic",
-          "size": "9.5in x 7.25in"
-        }
-      ]
-    },
-    {
-      "name": "Drawings",
-      "slug": "drawings",
-      "pieces": [
-        {
-          "id": "draw-1",
-          "title": "Bargue's Drawing",
-          "description": "Classical drawing study using the Bargue method",
-          "imageUrl": "/images/art/drawings/1JulietCraneBargue'sDrawing15in11inWhiteAndCharcoalOnGreyPaper.JPG",
-          "year": 2024,
-          "medium": "White and Charcoal on Grey Paper",
-          "size": "15in x 11in"
-        },
-        {
-          "id": "draw-2",
-          "title": "Ear Cast",
-          "description": "Anatomical study of an ear cast",
-          "imageUrl": "/images/art/drawings/3JulietCraneEarCast12in8.5inWhiteAndCharcoalOnGreyPaper.jpg",
-          "year": 2022,
-          "medium": "White and Charcoal on Grey Paper",
-          "size": "12in x 8.5in"
-        },
-        {
-          "id": "draw-3",
-          "title": "Sylvester",
-          "description": "Portrait of my grandfather in charcoal and white",
-          "imageUrl": "/images/art/drawings/4JulietCraneSylvester10in6.75inWhiteAndCharcoalOnGreyPaper.JPG",
-          "year": 2024,
-          "medium": "White and Charcoal on Grey Paper",
-          "size": "10in x 6.75in"
-        },
-        {
-          "id": "draw-4",
-          "title": "W Brain Watching",
-          "description": "Graphite pencil portrait of my dad",
-          "imageUrl": "/images/art/drawings/5JulietCraneWBrainWatching9.5in6.5inGraphitePencilOnMixedMediaPaper.JPG",
-          "year": 2024,
-          "medium": "Graphite Pencil on Mixed Media Paper",
-          "size": "9.5in x 6.5in"
-        },
-        {
-          "id": "draw-5",
-          "title": "Archimedes",
-          "description": "Classical figure study in charcoal",
-          "imageUrl": "/images/art/drawings/ArchimedesCharcoal.JPG",
-          "year": 2024,
-          "medium": "Charcoal",
-          "size": "N/A"
-        },
-        {
-          "id": "draw-6",
-          "title": "Brian and Simon",
-          "description": "Charcoal portrait of my dad and brother",
-          "imageUrl": "/images/art/drawings/BrianAndSimon12inx9inCharcoalOnGreyPaper.JPG",
-          "year": 2024,
-          "medium": "Charcoal on Grey Paper",
-          "size": "12in x 9in"
-        }
-      ]
-    },
-    {
-      "name": "Digital Art",
-      "slug": "digital",
-      "pieces": [
-        {
-          "id": "digital-1",
-          "title": "Dillema",
-          "description": "Haunting background design for Operation SS Pelican video game",
-          "imageUrl": "/images/art/digital/Dillema.jpg",
-          "year": 2024,
-          "medium": "Digital",
-          "size": "N/A"
-        },
-        {
-          "id": "digital-2",
-          "title": "Operation SSP Background",
-          "description": "Background design for Operation SSP",
-          "imageUrl": "/images/art/digital/OperationSSPBackground.jpg",
-          "year": 2024,
-          "medium": "Digital",
-          "size": "N/A"
-        },
-        {
-          "id": "digital-3",
-          "title": "Spring",
-          "description": "Seasonal digital illustration",
-          "imageUrl": "/images/art/digital/Spring.jpg",
-          "year": 2024,
-          "medium": "Digital",
-          "size": "N/A"
-        },
-        {
-          "id": "digital-4",
-          "title": "Studious",
-          "description": "Background of a classroom",
-          "imageUrl": "/images/art/digital/Studious.jpg",
-          "year": 2024,
-          "medium": "Digital",
-          "size": "N/A"
-        },
-        {
-          "id": "digital-5",
-          "title": "Title Background",
-          "description": "Operation SS Pelican title page background art",
-          "imageUrl": "/images/art/digital/TitleBackground.jpg",
-          "year": 2024,
-          "medium": "Digital",
-          "size": "N/A"
-        }
-      ]
-    },
-    {
-      "name": "Illustrations",
-      "slug": "illustrations",
-      "pieces": []
-    }
-  ]
+	"categories": [
+		{
+			"name": "Paintings",
+			"slug": "paintings",
+			"pieces": [
+				{
+					"id": "paint-1",
+					"title": "Evanesce",
+					"description": "A monochrome watercolor portrait in memory of my Great Uncle",
+					"imageUrl": "/images/art/paintings/6JulietCraneEvanesce7in6inWatercolorOnWatercolorPaper.jpg",
+					"year": 2022,
+					"medium": "Watercolor on Watercolor Paper",
+					"size": "7in x 6in"
+				},
+				{
+					"id": "paint-2",
+					"title": "Brian",
+					"description": "A watercolor portrait of my Dad",
+					"imageUrl": "/images/art/paintings/7JulietCraneBrian10in6.5inWatercolorOnMixedMediaPaper.JPG",
+					"year": 2023,
+					"medium": "Watercolor on Mixed Media Paper",
+					"size": "10in x 6.5in"
+				},
+				{
+					"id": "paint-3",
+					"title": "Ski Girl",
+					"description": "A watercolor portrait of my Mom on the ski slopes as a young girl",
+					"imageUrl": "/images/art/paintings/8JulietCraneSkiGirl9.5in6.5inWatercolorOnMixedMediaPaper.JPG",
+					"year": 2023,
+					"medium": "Watercolor on Mixed Media Paper",
+					"size": "9.5in x 6.5in"
+				},
+				{
+					"id": "paint-4",
+					"title": "Royal Alicia",
+					"description": "A watercolor portrait of my elegant and dear friend Alicia",
+					"imageUrl": "/images/art/paintings/9JulietCraneRoyalAlicia9.5in6.5inWatercolorOnMixedMediaPaper.JPG",
+					"year": 2024,
+					"medium": "Watercolor on Mixed Media Paper",
+					"size": "9.5in x 6.5in"
+				},
+				{
+					"id": "paint-5",
+					"title": "Night Time Lake Vibes",
+					"description": "An atmospheric landscape outside of a jazz venue combining watercolor and colored pencil",
+					"imageUrl": "/images/art/paintings/13JulietCraneNightTimeLakeVibes12in9.5inWatercolorAndColoredPencilOnMixedMediaPaper.jpg",
+					"year": 2024,
+					"medium": "Watercolor and Colored Pencil on Mixed Media Paper",
+					"size": "12in x 9.5in"
+				},
+				{
+					"id": "paint-6",
+					"title": "Tomatos and Cup Still Life",
+					"description": "Classical still life study in oil paint",
+					"imageUrl": "/images/art/paintings/18JulietCraneTomatosAndCupStillLife11inx11inOilpaintOnWoodCanvas.jpg",
+					"year": 2024,
+					"medium": "Oil Paint on Wood Canvas",
+					"size": "11in x 11in"
+				},
+				{
+					"id": "paint-7",
+					"title": "Apple and Lemon Still Life",
+					"description": "Oil painting still life composition",
+					"imageUrl": "/images/art/paintings/19JulietCraneAppleAndLemonStillLife9.5in12inOilPaintOnCanvasPaper.jpg",
+					"year": 2024,
+					"medium": "Oil Paint on Canvas Paper",
+					"size": "9.5in x 12in"
+				},
+				{
+					"id": "paint-8",
+					"title": "Cello Concentration",
+					"description": "A watercolor portrait of my sister in deep concentration while practicing the cello",
+					"imageUrl": "/images/art/paintings/14CelloConcentration.jpg",
+					"year": 2024,
+					"medium": "N/A",
+					"size": "N/A"
+				},
+				{
+					"id": "paint-9",
+					"title": "Firefighter",
+					"description": "Acrylic portrait of a my firefighting sister",
+					"imageUrl": "/images/art/paintings/16Firefighter18inx12inAcrylic.JPG",
+					"year": 2024,
+					"medium": "Acrylic",
+					"size": "18in x 12in"
+				},
+				{
+					"id": "paint-10",
+					"title": "Alison and Diana",
+					"description": "A portrait of my grandmother and aunt in acrylic",
+					"imageUrl": "/images/art/paintings/AlisonAndDianaAcrylicOnCanvas16x20.jpg",
+					"year": 2024,
+					"medium": "Acrylic on Canvas",
+					"size": "16in x 20in"
+				},
+				{
+					"id": "paint-11",
+					"title": "Black Dog",
+					"description": "An abstract portrait of my mother and her dog - awarded Scholastic Gold Key",
+					"imageUrl": "/images/art/paintings/BlackDog21inx18in.jpg",
+					"year": 2024,
+					"medium": "N/A",
+					"size": "21in x 18in"
+				},
+				{
+					"id": "paint-12",
+					"title": "Ella",
+					"description": "Portrait of my dear friend Ella in acrylic",
+					"imageUrl": "/images/art/paintings/Ella9.5inx7.25inArylic.JPG",
+					"year": 2024,
+					"medium": "Acrylic",
+					"size": "9.5in x 7.25in"
+				}
+			]
+		},
+		{
+			"name": "Drawings",
+			"slug": "drawings",
+			"pieces": [
+				{
+					"id": "draw-1",
+					"title": "Bargue's Drawing",
+					"description": "Classical drawing study using the Bargue method",
+					"imageUrl": "/images/art/drawings/1JulietCraneBargue'sDrawing15in11inWhiteAndCharcoalOnGreyPaper.JPG",
+					"year": 2024,
+					"medium": "White and Charcoal on Grey Paper",
+					"size": "15in x 11in"
+				},
+				{
+					"id": "draw-2",
+					"title": "Ear Cast",
+					"description": "Anatomical study of an ear cast",
+					"imageUrl": "/images/art/drawings/3JulietCraneEarCast12in8.5inWhiteAndCharcoalOnGreyPaper.jpg",
+					"year": 2022,
+					"medium": "White and Charcoal on Grey Paper",
+					"size": "12in x 8.5in"
+				},
+				{
+					"id": "draw-3",
+					"title": "Sylvester",
+					"description": "Portrait of my grandfather in charcoal and white",
+					"imageUrl": "/images/art/drawings/4JulietCraneSylvester10in6.75inWhiteAndCharcoalOnGreyPaper.JPG",
+					"year": 2024,
+					"medium": "White and Charcoal on Grey Paper",
+					"size": "10in x 6.75in"
+				},
+				{
+					"id": "draw-4",
+					"title": "W Brain Watching",
+					"description": "Graphite pencil portrait of my dad",
+					"imageUrl": "/images/art/drawings/5JulietCraneWBrainWatching9.5in6.5inGraphitePencilOnMixedMediaPaper.JPG",
+					"year": 2024,
+					"medium": "Graphite Pencil on Mixed Media Paper",
+					"size": "9.5in x 6.5in"
+				},
+				{
+					"id": "draw-5",
+					"title": "Archimedes",
+					"description": "Classical figure study in charcoal",
+					"imageUrl": "/images/art/drawings/ArchimedesCharcoal.JPG",
+					"year": 2024,
+					"medium": "Charcoal",
+					"size": "N/A"
+				},
+				{
+					"id": "draw-6",
+					"title": "Brian and Simon",
+					"description": "Charcoal portrait of my dad and brother",
+					"imageUrl": "/images/art/drawings/BrianAndSimon12inx9inCharcoalOnGreyPaper.JPG",
+					"year": 2024,
+					"medium": "Charcoal on Grey Paper",
+					"size": "12in x 9in"
+				}
+			]
+		},
+		{
+			"name": "Digital Art",
+			"slug": "digital",
+			"pieces": [
+				{
+					"id": "digital-1",
+					"title": "Dillema",
+					"description": "Haunting background design for Operation SS Pelican video game",
+					"imageUrl": "/images/art/digital/Dillema.jpg",
+					"year": 2024,
+					"medium": "Digital",
+					"size": "N/A"
+				},
+				{
+					"id": "digital-2",
+					"title": "Operation SSP Background",
+					"description": "Background design for Operation SSP",
+					"imageUrl": "/images/art/digital/OperationSSPBackground.jpg",
+					"year": 2024,
+					"medium": "Digital",
+					"size": "N/A"
+				},
+				{
+					"id": "digital-3",
+					"title": "Spring",
+					"description": "Seasonal digital illustration",
+					"imageUrl": "/images/art/digital/Spring.jpg",
+					"year": 2024,
+					"medium": "Digital",
+					"size": "N/A"
+				},
+				{
+					"id": "digital-4",
+					"title": "Studious",
+					"description": "Background of a classroom",
+					"imageUrl": "/images/art/digital/Studious.jpg",
+					"year": 2024,
+					"medium": "Digital",
+					"size": "N/A"
+				},
+				{
+					"id": "digital-5",
+					"title": "Title Background",
+					"description": "Operation SS Pelican title page background art",
+					"imageUrl": "/images/art/digital/TitleBackground.jpg",
+					"year": 2024,
+					"medium": "Digital",
+					"size": "N/A"
+				}
+			]
+		},
+		{
+			"name": "Illustrations",
+			"slug": "illustrations",
+			"pieces": []
+		}
+	]
 }
