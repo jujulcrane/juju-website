@@ -9,7 +9,7 @@
 					"title": "Evanesce",
 					"description": "A monochrome watercolor portrait in memory of my Great Uncle",
 					"imageUrl": "/images/art/paintings/6JulietCraneEvanesce7in6inWatercolorOnWatercolorPaper.jpg",
-					"year": 2022,
+					"year": 2023,
 					"medium": "Watercolor on Watercolor Paper",
 					"size": "7in x 6in"
 				},
@@ -63,7 +63,7 @@
 					"title": "Apple and Lemon Still Life",
 					"description": "Oil painting still life composition",
 					"imageUrl": "/images/art/paintings/19JulietCraneAppleAndLemonStillLife9.5in12inOilPaintOnCanvasPaper.jpg",
-					"year": 2024,
+					"year": 2023,
 					"medium": "Oil Paint on Canvas Paper",
 					"size": "9.5in x 12in"
 				},
@@ -123,7 +123,7 @@
 					"title": "Bargue's Drawing",
 					"description": "Classical drawing study using the Bargue method",
 					"imageUrl": "/images/art/drawings/1JulietCraneBargue'sDrawing15in11inWhiteAndCharcoalOnGreyPaper.JPG",
-					"year": 2024,
+					"year": 2023,
 					"medium": "White and Charcoal on Grey Paper",
 					"size": "15in x 11in"
 				},
@@ -147,10 +147,10 @@
 				},
 				{
 					"id": "draw-4",
-					"title": "W Brain Watching",
+					"title": "W Brian Watching",
 					"description": "Graphite pencil portrait of my dad",
 					"imageUrl": "/images/art/drawings/5JulietCraneWBrainWatching9.5in6.5inGraphitePencilOnMixedMediaPaper.JPG",
-					"year": 2024,
+					"year": 2021,
 					"medium": "Graphite Pencil on Mixed Media Paper",
 					"size": "9.5in x 6.5in"
 				},
@@ -171,6 +171,15 @@
 					"year": 2024,
 					"medium": "Charcoal on Grey Paper",
 					"size": "12in x 9in"
+				},
+        {
+					"id": "draw-4",
+					"title": "Alex Side Profile",
+					"description": "Graphite pencil portrait of my mom",
+					"imageUrl": "/images/art/drawings/AlexSideProfileDrawing2024.jpeg",
+					"year": 2024,
+					"medium": "Graphite Pencil on Mixed Media Paper",
+					"size": "6.5in x 4.5in"
 				}
 			]
 		},
@@ -228,7 +237,26 @@
 		{
 			"name": "Illustrations",
 			"slug": "illustrations",
-			"pieces": []
+			"pieces": [
+        {
+					"id": "illustration-1",
+					"title": "Brook and Luffy",
+					"description": "Illustration of One Piece Manga Panel",
+					"imageUrl": "/images/art/illustrations/LuffyAndBrookPenOnPaper.jpeg",
+					"year": 2022,
+					"medium": "Pen on Paper",
+					"size": "9.5in x 6.5in"
+				},
+        {
+					"id": "illustration-2",
+					"title": "One Piece Fight Scene",
+					"description": "Illustration of One Piece Manga Panel",
+					"imageUrl": "/images/art/illustrations/OnePieceFightScene.jpeg",
+					"year": 2022,
+					"medium": "Pen on Paper",
+					"size": "9.5in x 6.5in"
+				}
+      ]
 		}
 	]
 }
