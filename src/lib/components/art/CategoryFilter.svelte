@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { createEventDispatcher } from 'svelte';
-	import type { ArtCategory } from './types/art';
+	import type { ArtCategory } from '../types/art';
 	import Button from '$lib/components/Button.svelte';
 
 	export let categories: ArtCategory[];

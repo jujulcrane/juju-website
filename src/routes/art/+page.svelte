@@ -1,7 +1,7 @@
 <script lang="ts">
 	import ArtGallery from '$lib/components/art/ArtGallery.svelte';
 	import CategoryFilter from '$lib/components/art/CategoryFilter.svelte';
-	import type { ArtCategory } from '$lib/components/art/types/art';
+	import type { ArtCategory } from '$lib/components/types/art';
 	import Meta from '$lib/components/Meta.svelte';
 	import { onMount } from 'svelte';
 

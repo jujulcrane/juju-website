@@ -24,7 +24,7 @@
 			<li><a href="/projects" class="hover:text-gray-300">Projects</a></li>
 			<li><a href="/art" class="hover:text-gray-300">Art</a></li>
 			<li><a href="/music" class="hover:text-gray-300">Music</a></li>
-			<li><a href="/coming-soon" class="hover:text-gray-300">Coming Soon</a></li>
+			<li><a href="/experiences" class="hover:text-gray-300">Experiences</a></li>
 			<li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
 			<li>
 				<DownloadButton
@@ -81,8 +81,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="/coming-soon" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
-						Coming Soon
+					<a href="/experiences" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
+						Experiences
 					</a>
 				</li>
 				<li>

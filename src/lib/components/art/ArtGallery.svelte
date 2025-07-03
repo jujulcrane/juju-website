@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ArtCategory } from './types/art';
+	import type { ArtCategory } from '../types/art';
 	import ArtCard from './ArtCard.svelte';
 
 	export let categories: ArtCategory[];

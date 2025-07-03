@@ -172,7 +172,7 @@
 					"medium": "Charcoal on Grey Paper",
 					"size": "12in x 9in"
 				},
-        {
+				{
 					"id": "draw-4",
 					"title": "Alex Side Profile",
 					"description": "Graphite pencil portrait of my mom",
@@ -238,7 +238,7 @@
 			"name": "Illustrations",
 			"slug": "illustrations",
 			"pieces": [
-        {
+				{
 					"id": "illustration-1",
 					"title": "Brook and Luffy",
 					"description": "Illustration of One Piece Manga Panel",
@@ -247,7 +247,7 @@
 					"medium": "Pen on Paper",
 					"size": "9.5in x 6.5in"
 				},
-        {
+				{
 					"id": "illustration-2",
 					"title": "One Piece Fight Scene",
 					"description": "Illustration of One Piece Manga Panel",
@@ -256,7 +256,7 @@
 					"medium": "Pen on Paper",
 					"size": "9.5in x 6.5in"
 				}
-      ]
+			]
 		}
 	]
 }

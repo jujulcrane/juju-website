@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ArtPiece } from './types/art';
+	import type { ArtPiece } from '../types/art';
 
 	export let piece: ArtPiece;
 	function handleClick() {

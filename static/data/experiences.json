@@ -1,0 +1,84 @@
+[
+	{
+		"title": "Environmental Innovation & Entrepreneurship Roundtable Delegate",
+		"organization": "Japan-America Student Conference (JASC 77)",
+		"organizationUrl": "https://iscdc.org/jasc/",
+		"location": "Ithaca, NY",
+		"date": "Mar 2025 – Present",
+		"description": [
+			"Selected as 1 of 36 U.S. delegates for a three-week, student-led exchange with Japanese peers.",
+			"Engaged in weekly pre-conference discussions & research on environmental technology, entrepreneurship, and policy.",
+			"Collaborated with 7 cross-cultural delegates to prepare presentations for forums in Kyoto, Osaka, Kumamoto & Tokyo."
+		],
+		"images": ["/images/experiences/JascPost.png"],
+		"orientation": "left",
+		"topText": "JASC 77",
+		"bottomText": "In Progress"
+	},
+	{
+		"title": "Software Developer",
+		"organization": "Cornell Digital Technology & Innovation",
+		"organizationUrl": "https://www.cornelldti.org/",
+		"location": "Ithaca, NY",
+		"date": "Sep 2024 – Present",
+		"description": [
+			"Drive development of community-focused tech products as part of a selective 94-member team.",
+			"Collaborated with a team of 9 to optimize internal tools platform & develop team public website using React.",
+			"Built interview dashboard to automate applicant tracking, saving leads 10+ hours/week."
+		],
+		"images": ["/images/experiences/IdolGroupPhoto.png"],
+		"orientation": "right",
+		"topText": "Cornell DTI",
+		"bottomText": "In Progress"
+	},
+	{
+		"title": "Campus Strategist",
+		"organization": "Perplexity AI",
+		"organizationUrl": "https://www.perplexity.ai/hub/about",
+		"location": "Ithaca, NY",
+		"date": "Jan 2025 – May 2025",
+		"description": [
+			"Led outreach efforts that increased platform use by 79% across Cornell.",
+			"Built 10 collaborative sponsorships in 2 weeks to promote AI adoption.",
+			"Initiated partnership for CU Design-a-thon, boosting visibility to 130+ student designers."
+		],
+		"images": [
+			"/images/experiences/PerplexityDemo.png",
+			"/images/experiences/PerplexityAILogo.webp"
+		],
+		"orientation": "left",
+		"topText": "Perplexity AI",
+		"bottomText": "Spring 2025"
+	},
+	{
+		"title": "Participant",
+		"organization": "W.E. Cornell Entrepreneurship Program",
+		"organizationUrl": "https://eship.cornell.edu/item/we-cornell/",
+		"location": "Ithaca, NY",
+		"date": "Jan 2025 – Apr 2025",
+		"description": [
+			"Developed prototype for IKanji, an AI-powered kanji study app.",
+			"Conducted 8 customer discovery interviews with Japanese learners.",
+			"Completed workshops on startup strategy and operations."
+		],
+		"images": ["/images/experiences/W.ECornellCohort.png"],
+		"orientation": "right",
+		"topText": "W.E. Cornell",
+		"bottomText": "Spring 2025"
+	},
+	{
+		"title": "Senior Barista & Social Media Manager",
+		"organization": "UTEA Bubble Tea",
+		"organizationUrl": "https://www.uteausa.com/",
+		"location": "Ithaca, NY",
+		"date": "Apr 2022 – Present",
+		"description": [
+			"Managed Instagram, achieving a 3565.5% increase in reach and 483.8% rise in profile visits in 2 months.",
+			"Trained 4 new team members on drink preparation, store protocols, and customer service."
+		],
+		"images": ["/images/experiences/JujuAtUtea.png"],
+		"orientation": "left",
+		"topText": "UTEA Bubble Tea",
+		"bottomText": "In Progress"
+	}
+]
