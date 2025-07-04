@@ -10,8 +10,6 @@ Welcome to the repository for my personal website! This project is built using *
 - [Available Scripts](#available-scripts)
 - [Tech Stack](#tech-stack)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
