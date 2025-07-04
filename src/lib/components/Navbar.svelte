@@ -16,22 +16,22 @@
 
 <nav class="relative p-4 text-black">
 	<div class="container mx-auto flex items-center justify-between">
-		<a href="/" class="hover:text-gray-300"><HomeIcon size={30} /></a>
+		<a href="/" class="hover:bg-[#FFC107]"><HomeIcon size={30} /></a>
 
 		<!-- Desktop Navigation -->
 		<ul class="hidden space-x-6 md:flex">
-			<li><a href="/about" class="hover:text-gray-300">About</a></li>
-			<li><a href="/projects" class="hover:text-gray-300">Projects</a></li>
-			<li><a href="/art" class="hover:text-gray-300">Art</a></li>
-			<li><a href="/music" class="hover:text-gray-300">Music</a></li>
-			<li><a href="/experiences" class="hover:text-gray-300">Experiences</a></li>
-			<li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+			<li><a href="/about" class="hover:text-[#FFC107]">About</a></li>
+			<li><a href="/projects" class="hover:text-[#FFC107]">Projects</a></li>
+			<li><a href="/art" class="hover:text-[#FFC107]">Art</a></li>
+			<li><a href="/music" class="hover:text-[#FFC107]">Music</a></li>
+			<li><a href="/experiences" class="hover:text-[#FFC107]">Experiences</a></li>
+			<li><a href="#contact" class="hover:text-[#FFC107]">Contact</a></li>
 			<li>
 				<DownloadButton
 					href="/resume.pdf"
 					filename="Juliet_Crane_Resume.pdf"
 					ariaLabel="Download Juliet Crane's Resume"
-					size={20}
+					size={24}
 					tooltipText="Download my resume"
 					tooltipDirection="bottom"
 				/>
