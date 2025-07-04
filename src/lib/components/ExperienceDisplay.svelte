@@ -7,19 +7,19 @@
 
 <div class="flex flex-col gap-y-8 lg:gap-y-0">
 	{#each experiences as exp, i}
-  <Connector
-					orientation={exp.orientation}
-					width={300}
-					height={200}
-					strokeWidth={6}
-					topText={''}
-					bottomText={''}
-					className=""
-				/>
+		<Connector
+			orientation={exp.orientation}
+			width={300}
+			height={200}
+			strokeWidth={6}
+			topText={''}
+			bottomText={''}
+			className=""
+		/>
 		<div class="flex flex-col items-center lg:flex-row">
 			{#if exp.orientation === 'left'}
 				<div class="flex w-full justify-center lg:w-1/2">
-					<div class="flex gap-2 items-center">
+					<div class="flex items-center gap-2">
 						{#each exp.images as img}
 							<img
 								src={img}
@@ -32,7 +32,6 @@
 			{/if}
 
 			<div class="relative w-full lg:w-1/2">
-
 				<div class="rounded-lg bg-white p-6 shadow">
 					<h2 class="text-2xl font-semibold">{exp.title}</h2>
 					<div class="mb-2 text-gray-500">
@@ -59,7 +58,7 @@
 
 			{#if exp.orientation === 'right'}
 				<div class="flex w-full items-center justify-center lg:w-1/2">
-					<div class="flex gap-2 items-center">
+					<div class="flex items-center gap-2">
 						{#each exp.images as img}
 							<img
 								src={img}
