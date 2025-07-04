@@ -39,25 +39,6 @@
 		}
 		return `${startFormatted} - ${formatDate(project.endDate)}`;
 	};
-
-	const getConnectorText = (currentProjectIndex: number) => {
-		const currentProject = projects[currentProjectIndex];
-		const nextProject = projects[currentProjectIndex + 1];
-
-		const topText = `${formatDate(currentProject.startDate)}`;
-
-		let bottomText = '';
-		if (nextProject.endDate) {
-			bottomText = `${formatDate(nextProject.endDate)}`;
-		} else {
-			bottomText = 'In Progress';
-		}
-
-		return {
-			topText,
-			bottomText
-		};
-	};
 </script>
 
 <section class="min-h-screen">
@@ -119,7 +100,6 @@
 
 			<!-- Timeline Connector between projects -->
 			{#if index < projects.length - 1}
-				{@const connectorText = getConnectorText(index)}
 				<div class="my-16">
 					<Connector
 						orientation={index % 2 === 0 ? 'right' : 'left'}
@@ -127,8 +107,8 @@
 						height={200}
 						strokeWidth={4}
 						cornerRadius={25}
-						topText={connectorText.topText}
-						bottomText={connectorText.bottomText}
+						topText={''}
+						bottomText={''}
 						className=""
 					/>
 				</div>

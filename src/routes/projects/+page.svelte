@@ -87,5 +87,5 @@
 	url="https://yourwebsite.com/projects"
 />
 
-<h1>My Projects</h1>
+<h1 class="h2-style">My Projects</h1>
 <ProjectShowcase {projects} />

@@ -43,7 +43,7 @@
 	url="https://url/art"
 />
 
-<h1>My Art Gallery</h1>
+<h1 class="h2-style">My Art Gallery</h1>
 <p class="py-4">
 	I'm passionate about creating art across various mediums! I especially enjoy painting with oil
 	paints, watercolors, and acrylics, as well as drawing with charcoal and graphite. Explore my
