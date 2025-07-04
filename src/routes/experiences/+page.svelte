@@ -21,6 +21,6 @@
 <h1>Experiences</h1>
 <p>A chronological journey through my academic, professional, and creative experiences.</p>
 
-<div class="mx-auto max-w-3xl px-4 py-12">
+<div class="container mx-auto px-4 py-16">
 	<ExperienceDisplay {experiences} />
 </div>

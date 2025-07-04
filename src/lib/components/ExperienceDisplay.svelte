@@ -5,17 +5,26 @@
 	export let experiences: Experience[];
 </script>
 
-<div>
+<div class="flex flex-col gap-y-8 lg:gap-y-0">
 	{#each experiences as exp, i}
-		<div class="mb-16 flex flex-col items-center lg:flex-row">
+  <Connector
+					orientation={exp.orientation}
+					width={300}
+					height={200}
+					strokeWidth={6}
+					topText={''}
+					bottomText={''}
+					className=""
+				/>
+		<div class="flex flex-col items-center lg:flex-row">
 			{#if exp.orientation === 'left'}
-				<div class="mb-6 flex w-full justify-center lg:mb-0 lg:w-1/2">
-					<div class="flex gap-2">
+				<div class="flex w-full justify-center lg:w-1/2">
+					<div class="flex gap-2 items-center">
 						{#each exp.images as img}
 							<img
 								src={img}
 								alt={exp.organization}
-								class="h-40 w-64 rounded-lg object-cover shadow-lg"
+								class="h-64 w-full rounded-lg object-cover shadow-lg"
 							/>
 						{/each}
 					</div>
@@ -23,17 +32,8 @@
 			{/if}
 
 			<div class="relative w-full lg:w-1/2">
-				<Connector
-					orientation={exp.orientation}
-					width={300}
-					height={120}
-					strokeWidth={6}
-					topText={exp.topText}
-					bottomText={exp.bottomText}
-					className="my-2"
-				/>
 
-				<div class="mt-6 rounded-lg bg-white p-6 shadow">
+				<div class="rounded-lg bg-white p-6 shadow">
 					<h2 class="text-2xl font-semibold">{exp.title}</h2>
 					<div class="mb-2 text-gray-500">
 						{#if exp.organizationUrl}
@@ -58,13 +58,13 @@
 			</div>
 
 			{#if exp.orientation === 'right'}
-				<div class="mt-6 flex w-full justify-center lg:mt-0 lg:w-1/2">
-					<div class="flex gap-2">
+				<div class="flex w-full items-center justify-center lg:w-1/2">
+					<div class="flex gap-2 items-center">
 						{#each exp.images as img}
 							<img
 								src={img}
 								alt={exp.organization}
-								class="h-40 w-64 rounded-lg object-cover shadow-lg"
+								class="h-64 w-full rounded-lg object-cover shadow-lg"
 							/>
 						{/each}
 					</div>
