@@ -1,38 +1,88 @@
-# sv
+# Personal Website – README
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to the repository for my personal website! This project is built using **Svelte**, **TypeScript**, and **Tailwind CSS**.
 
-## Creating a project
+## Table of Contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Available Scripts](#available-scripts)
+- [Tech Stack](#tech-stack)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- **Modern Svelte app** with TypeScript for type safety
+- **Tailwind CSS** for rapid, utility-first styling
+- Responsive and accessible design
+- Easy customization of content and theme
+- Clean, component-based architecture
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [pnpm](https://pnpm.io/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository and install dependencies:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+git clone https://github.com/your-username/your-personal-website.git
+cd your-personal-website
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Running the Development Server
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Visit `http://localhost:5173` (or as indicated in your terminal) to view your site.
 
-To create a production version of your app:
+## Project Structure
+
+```plaintext
+├── src/
+│   ├── components/    # Reusable Svelte components
+│   ├── routes/        # Route-based pages
+│   ├── lib/           # Utilities and helpers
+│   ├── app.html       # HTML template
+├── static/            # Static assets (images, favicon, etc.)
+├── tailwind.config.cjs
+├── svelte.config.js
+├── tsconfig.json
+└── package.json
+```
+
+## Available Scripts
+
+- `npm run dev` – Start the development server
+- `npm run build` – Build the site for production
+- `npm run preview` – Preview the production build locally
+- `npm run check` – Type-check the project
+
+## Tech Stack
+
+| Technology   | Purpose                        |
+| ------------ | ------------------------------ |
+| Svelte       | Frontend framework             |
+| TypeScript   | Static typing                  |
+| Tailwind CSS | Utility-first styling          |
+| Vite         | Fast build tool and dev server |
+
+## Deployment
+
+You can deploy the built site to any static hosting provider (e.g., Vercel, Netlify, GitHub Pages):
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Upload the contents of the `build/` or `dist/` directory to your hosting provider.
