@@ -16,7 +16,7 @@
 
 <nav class="relative p-4 text-black">
 	<div class="container mx-auto flex items-center justify-between">
-		<a href="/" class="hover:bg-[#FFC107]"><HomeIcon size={30} /></a>
+		<a href="/"><HomeIcon size={30} /></a>
 
 		<!-- Desktop Navigation -->
 		<ul class="hidden space-x-6 md:flex">
