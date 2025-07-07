@@ -14,14 +14,16 @@
 	url="https://url.com"
 />
 
-<div class="mt-4 flex w-full items-center justify-between">
-	<h1>Juju <br />Juliet Crane <br />ジュジュ・クレーン</h1>
-	<div class="m-4 grid grid-cols-2 items-center gap-4">
+<SectionSep />
+<div class="mt-4 flex w-full items-center justify-center gap-x-8">
+	<h1 class="flex-end">Juliet Crane</h1>
+	<h1>ジュジュ・クレーン</h1>
+</div>
+<div class="flex justify-center items-center gap-x-16">
 		<ReactIcon size={120} />
-		<PaintingIcon size={120} />
+		<PaintingIcon size={130} />
 		<FrenchHornIcon size={160} />
 	</div>
-</div>
 <SectionSep />
 <h2 class="w-full pb-4 text-lg font-light sm:text-2xl md:text-4xl lg:text-5xl">
 	Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。
