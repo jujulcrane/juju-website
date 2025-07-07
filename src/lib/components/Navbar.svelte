@@ -25,7 +25,7 @@
 			<li><a href="/art" class="hover:text-[#FFC107]">Art</a></li>
 			<li><a href="/music" class="hover:text-[#FFC107]">Music</a></li>
 			<li><a href="/experiences" class="hover:text-[#FFC107]">Experiences</a></li>
-			<li><a href="#contact" class="hover:text-[#FFC107]">Contact</a></li>
+			<li><a href="/contact" class="hover:text-[#FFC107]">Contact</a></li>
 			<li>
 				<DownloadButton
 					href="/resume.pdf"
@@ -86,7 +86,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#contact" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
+					<a href="/contact" class="transition-colors hover:text-gray-300" on:click={closeMenu}>
 						Contact
 					</a>
 				</li>
