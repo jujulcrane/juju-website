@@ -2,7 +2,6 @@
 	import Meta from '$lib/components/Meta.svelte';
 	import ContactSection from '$lib/components/ContactSection.svelte';
 	import SectionSep from '$lib/components/SectionSep.svelte';
-
 </script>
 
 <Meta

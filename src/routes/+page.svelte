@@ -19,13 +19,13 @@
 	<h1 class="flex-end">Juliet Crane</h1>
 	<h1>ジュジュ・クレーン</h1>
 </div>
-<div class="flex justify-center items-center gap-x-16">
-		<ReactIcon size={120} />
-		<PaintingIcon size={130} />
-		<FrenchHornIcon size={160} />
-	</div>
+<div class="flex items-center justify-center gap-x-16">
+	<ReactIcon size={120} />
+	<PaintingIcon size={130} />
+	<FrenchHornIcon size={160} />
+</div>
 <SectionSep />
 <h2 class="w-full pb-4 text-lg font-light sm:text-2xl md:text-4xl lg:text-5xl">
 	Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。
 </h2>
-<FullImage src="/JujuPresenting.png" alt="Juju presenting code to peers" />
+<FullImage src="/HomePageImage.png" alt="Juju presenting code to peers" />
