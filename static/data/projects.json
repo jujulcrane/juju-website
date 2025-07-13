@@ -13,7 +13,7 @@
 			"Original Game Art",
 			"2D Animation"
 		],
-		"imageUrl": "/OperationSSPelican.jpg",
+		"imageUrl": "/images/projects/OperationSSPelican.jpg",
 		"githubUrl": "https://github.com/jujulcrane/OperationSSPelican",
 		"liveUrl": "https://play.unity.com/en/games/1938904b-51c2-4e0d-b6b3-8d32f14a24b4/operationsspelicangameupdate",
 		"startDate": "2024-01-01",
@@ -24,7 +24,7 @@
 		"title": "Stall Stories Club Website",
 		"description": "A mobile-responsive website founded and built for the school club Stall Stories. The informative site explains the club's mission, provides clear instructions on how to join, and offers contact information for the team. Features a comprehensive archive of newsletters showcasing all past editions with diverse content including events, jokes, riddles, and recipes, creating an engaging hub for the creative writing community.",
 		"technologies": ["HTML5", "CSS3", "Responsive Design", "Mobile-First Design", "GitHub Pages"],
-		"imageUrl": "/StallStoriesWebsite.png",
+		"imageUrl": "/images/projects/StallStoriesWebsite.png",
 		"githubUrl": "https://github.com/jujulcrane/stall-stories-website",
 		"liveUrl": "https://jujulcrane.github.io/stall-stories-website/",
 		"startDate": "2024-06-01",
@@ -43,7 +43,7 @@
 			"Responsive Design",
 			"GitHub Pages"
 		],
-		"imageUrl": "/ShoppingListCalculator.png",
+		"imageUrl": "/images/projects/ShoppingListCalculator.png",
 		"githubUrl": "https://github.com/jujulcrane/shopping-list-calculator",
 		"liveUrl": "https://jujulcrane.github.io/shopping-list-calculator/",
 		"startDate": "2024-08-01",
@@ -62,7 +62,7 @@
 			"Vercel",
 			"Firebase"
 		],
-		"imageUrl": "/ikanji.png",
+		"imageUrl": "/images/projects/ikanji.png",
 		"githubUrl": "https://github.com/jujulcrane/ikanji",
 		"liveUrl": "https://ikanji.vercel.app/",
 		"startDate": "2024-10-01"
@@ -78,7 +78,7 @@
 			"CSV Parsing",
 			"Frontend & Backend Integration"
 		],
-		"imageUrl": "/InterviewDashboard.png",
+		"imageUrl": "/images/projects/InterviewDashboard.png",
 		"githubUrl": "https://github.com/cornell-dti/idol",
 		"liveUrl": "",
 		"startDate": "2025-04-01",
@@ -89,7 +89,7 @@
 		"title": "Cornell Digital Tech & Innovation – Course Page Frontend",
 		"description": "Built the Course page frontend, implementing a responsive timeline and staff section to match Figma designs. Developed custom React hooks and ensured seamless UX across devices by optimizing interactivity and layout.",
 		"technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Figma", "Git"],
-		"imageUrl": "/CoursePage.png",
+		"imageUrl": "/images/projects/CoursePage.png",
 		"githubUrl": "https://github.com/cornell-dti/idol",
 		"liveUrl": "https://cornell-dti.netlify.app/course",
 		"startDate": "2025-05-01",
@@ -100,7 +100,7 @@
 		"title": "Personal Website",
 		"description": "Designed and implemented a responsive personal website showcasing projects, an art gallery, and blog with Svelte.",
 		"technologies": ["Svelte", "TypeScript", "Tailwind CSS", "Figma", "Git"],
-		"imageUrl": "/PersonalWebsite.png",
+		"imageUrl": "/images/projects/PersonalWebsite.png",
 		"githubUrl": "https://github.com/jujulcrane/juju-website",
 		"liveUrl": "https://juju-website.vercel.app/",
 		"startDate": "2025-05-01",
