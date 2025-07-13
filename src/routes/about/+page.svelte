@@ -18,7 +18,7 @@
 	];
 
 	const description = `
-    I am a rising sophomore studying Computer Science, Economics, and Japanese at Cornell University, where I'm a Milstein Scholar in the 2028 cohort.<br /><br />
+    Hi! I'm Juju, a rising sophomore studying Computer Science, Economics, and Japanese at Cornell University, where I'm a Milstein Scholar in the 2028 cohort.<br /><br />
     Outside of academics, I love creating music and playing ice hockey — I've been playing cello and French horn since Elementary School, and now I play horn in the Cornell Symphony Orchestra and serve as Merchandise Chair. I'm also Vice President of the French Horn Club. I've been on the ice since I was three and I currently serve as Vice President of Cornell Club Women's Hockey.<br /><br />
     Find me building Japanese study tools, developing websites for my project team, making bubble tea at UTea, attending orchestra rehearsal, taking slap shots at hockey practice, painting family portraits, or writing extensive google reviews!
   `;
