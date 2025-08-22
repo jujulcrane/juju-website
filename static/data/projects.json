@@ -107,26 +107,26 @@
 		"endDate": "2025-07-12"
 	},
 	{
-  "id": "talking-tanuki",
-  "title": "Talking Tanuki",
-  "description": "Engineered an interactive Japanese-language learning companion: a React Native app pairs via classic Bluetooth A2DP with an ESP32-powered plush Tanuki. Users practice conversational Japanese with AI-powered real-time speech (Whisper STT → GPT-4 prompt → OpenAI TTS), choosing grammar targets and proficiency, with both audio and optional text modes. The ESP32 C++ firmware streams natural TTS audio over I²S to a 3W speaker. Adopted by classmates prepping for JLPT oral exams; shown to improve response time and confidence.",
-  "technologies": [
-    "React Native",
-    "TypeScript",
-    "OpenAI Whisper",
-    "OpenAI GPT-4",
-    "OpenAI TTS",
-    "Bluetooth A2DP",
-    "Cloud Friestore",
-		"Firebase Authentication",
-    "ESP32",
-    "C++ (Arduino)",
-    "I²S"
-  ],
-  "imageUrl": "/images/projects/TalkingTanuki.jpeg",
-  "githubUrl": "https://github.com/jujulcrane/language-partner",
-  "liveUrl": "https://drive.google.com/file/d/1rJNAVtTz5hy5n6Z-Kn68wJvrMJO0J0mv/view?usp=sharing",
-  "startDate": "2025-06-28",
-  "endDate": "2025-07-23"
-}
+		"id": "talking-tanuki",
+		"title": "Talking Tanuki",
+		"description": "Engineered an interactive Japanese-language learning companion: a React Native app pairs via classic Bluetooth A2DP with an ESP32-powered plush Tanuki. Users practice conversational Japanese with AI-powered real-time speech (Whisper STT → GPT-4 prompt → OpenAI TTS), choosing grammar targets and proficiency, with both audio and optional text modes. The ESP32 C++ firmware streams natural TTS audio over I²S to a 3W speaker. Adopted by classmates prepping for JLPT oral exams; shown to improve response time and confidence.",
+		"technologies": [
+			"React Native",
+			"TypeScript",
+			"OpenAI Whisper",
+			"OpenAI GPT-4",
+			"OpenAI TTS",
+			"Bluetooth A2DP",
+			"Cloud Friestore",
+			"Firebase Authentication",
+			"ESP32",
+			"C++ (Arduino)",
+			"I²S"
+		],
+		"imageUrl": "/images/projects/TalkingTanuki.jpeg",
+		"githubUrl": "https://github.com/jujulcrane/language-partner",
+		"liveUrl": "https://drive.google.com/file/d/1rJNAVtTz5hy5n6Z-Kn68wJvrMJO0J0mv/view?usp=sharing",
+		"startDate": "2025-06-28",
+		"endDate": "2025-07-23"
+	}
 ]

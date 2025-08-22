@@ -10,6 +10,4 @@
 	keywords="digital art, painting, acrylic, watercolor, oil painting, creative portfolio, visual art, illustrations, artistic works"
 	url="https://url/art"
 />
-
-<h1 class="h2-style">Contact</h1>
 <ContactSection />

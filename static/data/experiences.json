@@ -4,17 +4,38 @@
 		"organization": "Japan-America Student Conference (JASC 77)",
 		"organizationUrl": "https://iscdc.org/jasc/",
 		"location": "Ithaca, NY",
-		"date": "Mar 2025 – Present",
+		"date": "Mar 2025 – August 2025",
 		"description": [
-			"Selected as 1 of 36 U.S. delegates for a three-week, student-led exchange with Japanese peers.",
-			"Engaged in weekly pre-conference discussions & research on environmental technology, entrepreneurship, and policy.",
-			"Collaborated with 7 cross-cultural delegates to prepare presentations for forums in Kyoto, Osaka, Kumamoto & Tokyo."
+			"As one of 26 U.S. delegates to the 3-week Japan–America Student Conference (Kyoto, Osaka, Kumamoto, Tokyo), contributed to cross-cultural research on environmental technology, entrepreneurship, and policy through weekly pre-conference sessions and on-site programming.",
+			"Participated in site visits and briefings including the Urasenke tea ceremony, a Noh performance, Kyoto’s startup ecosystem (POJ Studio), Osaka Expo youth ambassadors, TMC factory tour, testimonies from atomic bomb survivors, and a Kyoto Fusioneering session on fusion energy.",
+			"Co-developed a U.S. state bill and delivered a capstone presentation advancing next-generation nuclear fission policy."
 		],
-		"images": ["/images/experiences/JascPost.png"],
+		"images": ["/images/experiences/JASCAtAirport.JPG", "/images/experiences/EIEatExpo.jpg"],
 		"orientation": "left",
 		"topText": "JASC 77",
-		"bottomText": "In Progress"
+		"bottomText": "Spring/Summer 2025"
 	},
+	{
+		"title": "Milstein Summer Experience at Cornell Tech",
+		"organization": "Cornell Tech | Milstein Program",
+		"organizationUrl": "https://milstein-program.as.cornell.edu/summer-program",
+		"location": "New York, NY",
+		"date": "June 2025 – July 2025",
+		"description": [
+			"Selected as 1 of 25 scholars from thousands of Cornell undergrads for an intensive 8-week program at Cornell Tech.",
+			"Developed proficiency in 3D modeling (Fusion 360), 3D printing, laser cutting, Adobe Illustrator, and vinyl cutting.",
+			"Engineered a real-time speech transcription system using Whisper X, a microphone, and an ESP32 microcontroller.",
+			"Analyzed data from New York City’s Participatory Budgeting initiative and proposed policies to reduce urban pollution."
+		],
+		"images": [
+			"/images/experiences/MilsteinShowcaseGroupPhoto.JPG",
+			"/images/experiences/TanukiWIP.jpeg"
+		],
+		"orientation": "right",
+		"topText": "Milstein Scholar",
+		"bottomText": "Summer 2025"
+	},
+
 	{
 		"title": "Software Developer",
 		"organization": "Cornell Digital Technology & Innovation",
@@ -27,7 +48,7 @@
 			"Built interview dashboard to automate applicant tracking, saving leads 10+ hours/week."
 		],
 		"images": ["/images/experiences/IdolGroupPhoto.png"],
-		"orientation": "right",
+		"orientation": "left",
 		"topText": "Cornell DTI",
 		"bottomText": "In Progress"
 	},
@@ -46,7 +67,7 @@
 			"/images/experiences/PerplexityDemo.png",
 			"/images/experiences/PerplexityAILogo.webp"
 		],
-		"orientation": "left",
+		"orientation": "right",
 		"topText": "Perplexity AI",
 		"bottomText": "Spring 2025"
 	},
@@ -62,7 +83,7 @@
 			"Completed workshops on startup strategy and operations."
 		],
 		"images": ["/images/experiences/W.ECornellCohort.png"],
-		"orientation": "right",
+		"orientation": "left",
 		"topText": "W.E. Cornell",
 		"bottomText": "Spring 2025"
 	},
@@ -77,7 +98,7 @@
 			"Trained 4 new team members on drink preparation, store protocols, and customer service."
 		],
 		"images": ["/images/experiences/JujuAtUtea.png"],
-		"orientation": "left",
+		"orientation": "right",
 		"topText": "UTEA Bubble Tea",
 		"bottomText": "In Progress"
 	}
