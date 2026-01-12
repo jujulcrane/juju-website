@@ -25,7 +25,7 @@
 	<FrenchHornIcon size={160} />
 </div>
 <SectionSep />
-<h2 class="w-full pb-4 text-lg font-light sm:text-2xl md:text-4xl lg:text-5xl">
-	Developer, Musician, Artist, Athlete, Learner, Oatmeal Chef。
+<h2 class="w-full pb-4 text-lg font-light sm:text-2xl md:text-4xl lg:text-4xl">
+	Project Manager, Developer, Musician, Artist, Athlete, Oatmeal Chef。
 </h2>
 <FullImage src="/HomePageImage.png" alt="Juju presenting code to peers" />

@@ -1,5 +1,63 @@
 [
 	{
+		"title": "Claude Builders Ambassador",
+		"organization": "Anthropic",
+		"organizationUrl": "https://www.anthropic.com/",
+		"location": "Ithaca, NY",
+		"date": "August 2025 – Present",
+		"description": [
+			"As an Anthropic Claude AI Ambassador, my executive committee and I grew the Cornell Claude Builders Club from 0 to 532 members through weekly workshops, demos, and events.",
+			"Organized Cornell's first Claude Hackathon with 210 registrations and 119 participants, securing $1,800 in prizes and sponsorships from Monster Energy, Yerba Mate, and Entrepreneurship at Cornell.",
+			"Learned to collaborate across organizations, secure sponsorships, manage hackathon logistics, and build community."
+		],
+		"images": [
+			"/images/experiences/KatieJujuChristinaHack.JPG",
+			"/images/experiences/EBoard+Judges.JPG",
+			"/images/experiences/CBCHackEboard.JPG"
+		],
+		"orientation": "right",
+		"topText": "Anthropic",
+		"bottomText": "In Progress"
+	},
+	{
+		"title": "Technical Product Manager - Incubator",
+		"organization": "Cornell Digital Technology & Innovation (DTI)",
+		"organizationUrl": "https://www.cornelldti.org/",
+		"location": "Ithaca, NY",
+		"date": "August 2025 – Present",
+		"description": [
+			"As Technical Product Manager on DTI's Incubator subteam, I led development of Redi, a Cornell-specific dating app, from concept to App Store launch in just 2 months.",
+			"Successfully launched November 11th, gained 563.9K views across 4 Instagram posts, and reached 194 active users on TestFlight within 2 weeks.",
+			"Awarded 'Dev of the Semester' for technical leadership and contributions.",
+			"Learned invaluable lessons about rapid iteration, technical leadership, and overcoming unexpected challenges."
+		],
+		"images": [
+			"/images/experiences/DevOfTheSem.jpeg",
+			"/images/experiences/RediStats.jpeg",
+			"/images/experiences/DTIStats.jpeg"
+		],
+		"orientation": "left",
+		"topText": "Cornell DTI Incubator",
+		"bottomText": "In Progress"
+	},
+	{
+		"title": "Member",
+		"organization": "Epsilon Nu Tau (Entrepreneurship Fraternity)",
+		"location": "Ithaca, NY",
+		"date": "August 2025 – Present",
+		"description": [
+			"Joining Cornell's entrepreneurship fraternity, I completed new member education, researched and pitched Talking Tanuki, and won $375 at the pitch competition.",
+			"My public speaking and entrepreneurial skills grew dramatically through amazing mentorship.",
+			"Grateful for the friendships and excited to continue working on my startup Talking Tanuki."
+		],
+		"images": [
+			"/images/experiences/PitchCompGroupPic.JPG",
+			"/images/experiences/PitchCompWin.JPG"
+		],
+		"orientation": "right",
+		"topText": "Epsilon Nu Tau",
+		"bottomText": "In Progress"
+	},{
 		"title": "Environmental Innovation & Entrepreneurship Roundtable Delegate",
 		"organization": "Japan-America Student Conference (JASC 77)",
 		"organizationUrl": "https://iscdc.org/jasc/",
